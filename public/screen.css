@@ -5,5 +5,83 @@ html {
 body {
   margin: 0;
   min-height: 100%;
-  font: 16px / 1 sans-serif;
+  font: 13px / 1 helvetica;
+  background-color: #fff;
+  line-height: 1.4em;
+  color: #333333
+}
+
+#heading {
+  padding: 1em 1em;
+  background: #f3f3f3;
+  /* border: 1px solid purple; */
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.top-nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  /* border: 1px solid pink; */
+}
+
+.top-nav li {
+  font-family: Helvetica;
+  font-size: 13px;
+  padding: .5em;
+  font-weight: bold;
+  color: #333333;
+  /* border: 1px solid green; */
+}
+
+.top-nav li a {
+  text-decoration: none;
+  color: #333333;
+  /* border: 1px solid blue; */
+}
+
+.cat {
+  max-width: 30em;
+  /* border: 1px dotted brown; */
+}
+
+.cat img {
+  width: 100%;
+  border: 1px solid #CACACA;
+}
+
+.cat ul {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+  list-style: none;
+}
+
+.cat p {
+  color: #CACACA;
+  font-size: 15px;
+  margin: 1em 0;
+  font-weight: bold;
+}
+
+.cat-img-title {
+  color: #777;
+  font-size: 15px;
+  margin: 0 1em 0 0;
+  font-weight: bold;
+}
+
+.cat-img-title span {
+  color: #777;
+}
+
+.cat-img-title a {
+  color: #333;
+  text-decoration: none;
 }
